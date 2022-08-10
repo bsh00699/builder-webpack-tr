@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "istanbul cover ./node_modules/.bin/_mocha",
     "eslint": "eslint ./lib --fix"
   },
   "repository": {
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/bsh00699/builder-webpack-tr#readme",
   "devDependencies": {
+    "assert": "^2.0.0",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
@@ -26,6 +27,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.13.0",
     "glob-all": "^3.1.0",
+    "istanbul": "^0.4.5",
     "mocha": "^10.0.0",
     "rimraf": "^2.6.3"
   },

@@ -1,4 +1,5 @@
 /node_modules
 /logs
+/lib/build/
 /test/smoke/template/node_modules/
 /test/smoke/template/build/
