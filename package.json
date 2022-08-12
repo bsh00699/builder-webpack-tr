@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "istanbul cover ./node_modules/.bin/_mocha",
+    "test": "nyc --reporter=lcov --reporter=text ./node_modules/.bin/_mocha",
     "eslint": "eslint ./lib --fix"
   },
   "repository": {
@@ -21,6 +21,7 @@
   "devDependencies": {
     "assert": "^2.0.0",
     "babel-eslint": "^10.0.1",
+    "chai": "^4.3.6",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.17.3",
@@ -29,6 +30,7 @@
     "glob-all": "^3.1.0",
     "istanbul": "^0.4.5",
     "mocha": "^10.0.0",
+    "nyc": "^15.1.0",
     "rimraf": "^2.6.3"
   },
   "dependencies": {

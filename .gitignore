@@ -1,4 +1,6 @@
 /node_modules
+/.nyc_output
+/coverage
 /logs
 /lib/build/
 /test/smoke/template/node_modules/

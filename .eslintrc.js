@@ -5,8 +5,8 @@ module.exports = {
     "browser": true,
     "node": true
   },
-  // "rules": {
-  //   "indent": ["error", 2],
-  //   "semi": ["off"]
-  // }
+  "rules": {
+    "indent": ["error", 2],
+    "semi": ["off"]
+  }
 };
